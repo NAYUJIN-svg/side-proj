@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nyg.sideproj.mapper.KamcoMapper">
+
+    <select id="findRawData" resultType="com.nyg.sideproj.entity.KamcoData">
+        SELECT mnmt_no, cltr_nm, dpsl_mtd_cd, nmrd_adrs, pbct_begn_dtm, pbct_end_dtm, other_info
+        FROM public_data_raw
+        <where>
+            <if test="dpslMtdCd != null">
+                AND dpsl_mtd_cd = #{dpslMtdCd}
+            </if>
+            <if test="sido != null">
+                AND nmrd_adrs LIKE CONCAT('%', #{sido}, '%')
+            </if>
+        </where>
+        ORDER BY pbct_begn_dtm DESC
+        LIMIT #{numOfRows} OFFSET #{offset}
+    </select>
+
+    <select id="findByMnmtNo" resultType="com.nyg.sideproj.entity.KamcoData">
+        SELECT mnmt_no, dpsl_mtd_cd, nmrd_adrs, pbct_begn_dtm, pbct_end_dtm, other_info
+        FROM public_data_by_mnmt_no
+        <where>
+            <if test="dpslMtdCd != null">
+                AND dpsl_mtd_cd = #{dpslMtdCd}
+            </if>
+            <if test="sido != null">
+                AND nmrd_adrs LIKE CONCAT('%', #{sido}, '%')
+            </if>
+        </where>
+        ORDER BY pbct_begn_dtm DESC
+        LIMIT #{numOfRows} OFFSET #{offset}
+    </select>
+
+    <select id="findByCltrNm" resultType="com.nyg.sideproj.entity.KamcoData">
+        SELECT cltr_nm, dpsl_mtd_cd, nmrd_adrs, pbct_begn_dtm, pbct_end_dtm, other_info
+        FROM public_data_by_cltr_nm
+        <where>
+            <if test="dpslMtdCd != null">
+                AND dpsl_mtd_cd = #{dpslMtdCd}
+            </if>
+            <if test="sido != null">
+                AND nmrd_adrs LIKE CONCAT('%', #{sido}, '%')
+            </if>
+        </where>
+        ORDER BY pbct_begn_dtm DESC
+        LIMIT #{numOfRows} OFFSET #{offset}
+    </select>
+
+</mapper>
