@@ -1,175 +1,134 @@
 package com.nyg.sideproj.service;
 
-import com.nyg.sideproj.dto.KamcoRequest;
-import com.nyg.sideproj.dto.KamcoResponse;
-import com.nyg.sideproj.entity.KamcoData;
+import com.nyg.sideproj.config.KamcoApiConfig;
+import com.nyg.sideproj.dto.response.KamcoResponse;
+import com.nyg.sideproj.entity.KamcoItem;
 import com.nyg.sideproj.mapper.KamcoMapper;
+import com.nyg.sideproj.util.KamcoItemMapper;
+import com.nyg.sideproj.util.XmlParser;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-import org.springframework.web.reactive.function.client.WebClient;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import java.io.ByteArrayInputStream;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.List;
+import org.springframework.transaction.annotation.Transactional;
+import java.util.*;
+import java.util.stream.Collectors;
 
 @Slf4j
 @Service
 @RequiredArgsConstructor
 public class KamcoService {
+    
+    private final KamcoMapper mapper;
+    private final KamcoApiClient apiClient;
+    private final KamcoApiConfig config;
 
-    private final KamcoMapper kamcoMapper;
-    private final WebClient.Builder webClientBuilder;
-
-    @Value("${kamco.api.url}")
-    private String apiUrl;
-
-    @Value("${kamco.api.serviceKey}")
-    private String serviceKey;
-
-    public KamcoResponse getRawData(KamcoRequest request) {
-        log.info("[getRawData] Request: pageNo={}, numOfRows={}, dpslMtdCd={}, sido={}, offset={}", 
-                request.getPageNo(), request.getNumOfRows(), request.getDpslMtdCd(), request.getSido(), request.getOffset());
-        log.info("[getRawData] Calling Mapper.findRawData...");
-        List<KamcoData> items = kamcoMapper.findRawData(request);
-        log.info("[getRawData] Mapper returned {} items", items.size());
-        if (!items.isEmpty()) {
-            log.info("[getRawData] First item: {}", items.get(0));
-        }
-        return createResponse(items);
+    @Transactional
+    public KamcoResponse getMnmtList(int pageNo, int numOfRows) {
+        log.info("=== /mnmt API 시작 ===");
+        recreateTable("kamco_by_mnmt_no", mapper::dropMnmtTable, mapper::createMnmtTable);
+        List<KamcoItem> items = fetchUniqueItems(KamcoItem::getCLTR_MNMT_NO);
+        saveItems(items, mapper::insertByMnmtNo);
+        log.info("=== /mnmt API 종료: {} 건 ===", items.size());
+        return buildResponse(items, true);
     }
 
-    public KamcoResponse getByMnmtNo(KamcoRequest request) {
-        log.info("[getByMnmtNo] Request: pageNo={}, numOfRows={}, dpslMtdCd={}, sido={}, offset={}", 
-                request.getPageNo(), request.getNumOfRows(), request.getDpslMtdCd(), request.getSido(), request.getOffset());
-        log.info("[getByMnmtNo] Calling Mapper.findByMnmtNo...");
-        List<KamcoData> items = kamcoMapper.findByMnmtNo(request);
-        log.info("[getByMnmtNo] Mapper returned {} items", items.size());
-        if (!items.isEmpty()) {
-            log.info("[getByMnmtNo] First item: {}", items.get(0));
-        }
-        return createResponse(items);
+    @Transactional
+    public KamcoResponse getCltrList(int pageNo, int numOfRows) {
+        log.info("=== /cltr API 시작 ===");
+        recreateTable("kamco_by_cltr_nm", mapper::dropCltrTable, mapper::createCltrTable);
+        List<KamcoItem> items = fetchUniqueItems(KamcoItem::getCLTR_NM);
+        saveItems(items, mapper::insertByCltrNm);
+        log.info("=== /cltr API 종료: {} 건 ===", items.size());
+        return buildResponse(items, false);
     }
 
-    public KamcoResponse getByCltrNm(KamcoRequest request) {
-        log.info("[getByCltrNm] Request: pageNo={}, numOfRows={}, dpslMtdCd={}, sido={}, offset={}", 
-                request.getPageNo(), request.getNumOfRows(), request.getDpslMtdCd(), request.getSido(), request.getOffset());
-        log.info("[getByCltrNm] Calling Mapper.findByCltrNm...");
-        List<KamcoData> items = kamcoMapper.findByCltrNm(request);
-        log.info("[getByCltrNm] Mapper returned {} items", items.size());
-        if (!items.isEmpty()) {
-            log.info("[getByCltrNm] First item: {}", items.get(0));
-        }
-        return createResponse(items);
+    private void recreateTable(String tableName, Runnable drop, Runnable create) {
+        drop.run();
+        create.run();
+        log.debug("{} 테이블 재생성 완료", tableName);
     }
-
-    public int syncFromApi(int pageNo, int numOfRows) {
-        log.info("[syncFromApi] Calling Kamco API: pageNo={}, numOfRows={}", pageNo, numOfRows);
+    
+    private List<KamcoItem> fetchUniqueItems(java.util.function.Function<KamcoItem, String> keyExtractor) {
+        List<KamcoItem> result = new ArrayList<>();
+        Set<String> seen = new HashSet<>();
         
-        try {
-            String xmlResponse = webClientBuilder.build()
-                    .get()
-                    .uri(uriBuilder -> uriBuilder
-                            .scheme("http")
-                            .host("openapi.onbid.co.kr")
-                            .path("/openapi/services/KamcoPblsalThingInquireSvc/getKamcoPbctCltrList")
-                            .queryParam("serviceKey", serviceKey)
-                            .queryParam("pageNo", pageNo)
-                            .queryParam("numOfRows", numOfRows)
-                            .build())
-                    .retrieve()
-                    .bodyToMono(String.class)
-                    .block();
-
-            log.info("[syncFromApi] API Response received");
-            
-            List<KamcoData> dataList = parseXmlResponse(xmlResponse);
-            log.info("[syncFromApi] Parsed {} items from XML", dataList.size());
-            
-            int savedCount = 0;
-            for (KamcoData data : dataList) {
-                try {
-                    kamcoMapper.insertRawData(data);
-                    kamcoMapper.insertByMnmtNo(data);
-                    kamcoMapper.insertByCltrNm(data);
-                    savedCount++;
-                    log.info("[syncFromApi] Saved to all tables: mnmtNo={}, cltrNm={}", data.getMnmtNo(), data.getCltrNm());
-                } catch (Exception e) {
-                    log.error("[syncFromApi] Failed to save item: {}", data.getMnmtNo(), e);
-                }
+        for (int page = 1; page <= config.getMaxPages() && result.size() < config.getLimit(); page++) {
+            processPage(page, result, seen, keyExtractor);
+        }
+        
+        return result;
+    }
+    
+    private void processPage(int page, List<KamcoItem> result, Set<String> seen,
+                            java.util.function.Function<KamcoItem, String> keyExtractor) {
+        String xml = apiClient.fetchData(page, config.getItemsPerPage());
+        List<KamcoItem> items = parseXml(xml);
+        filterAndAddItems(items, result, seen, keyExtractor);
+    }
+    
+    private List<KamcoItem> parseXml(String xml) {
+        List<KamcoItem> items = XmlParser.parse(xml);
+        
+        if (items.isEmpty()) {
+            String errorMsg = XmlParser.getErrorMessage(xml);
+            if (errorMsg != null) {
+                log.warn("API 오류: {}", errorMsg);
             }
-            
-            log.info("[syncFromApi] Sync completed: {} items saved", savedCount);
-            return savedCount;
-        } catch (Exception e) {
-            log.error("[syncFromApi] Error calling Kamco API", e);
-            throw new RuntimeException("Failed to sync data from Kamco API", e);
+        }
+        return items;
+    }
+    
+    private void filterAndAddItems(List<KamcoItem> items, List<KamcoItem> result, Set<String> seen,
+                                  java.util.function.Function<KamcoItem, String> keyExtractor) {
+        items.stream()
+            .filter(this::isValid)
+            .forEach(item -> addIfUnique(result, seen, item, keyExtractor));
+    }
+    
+    private void addIfUnique(List<KamcoItem> result, Set<String> seen, KamcoItem item,
+                            java.util.function.Function<KamcoItem, String> keyExtractor) {
+        String key = keyExtractor.apply(item);
+        if (key != null && seen.add(key) && result.size() < config.getLimit()) {
+            result.add(item);
         }
     }
     
-    private List<KamcoData> parseXmlResponse(String xml) {
-        List<KamcoData> dataList = new ArrayList<>();
-        try {
-            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder builder = factory.newDocumentBuilder();
-            Document doc = builder.parse(new ByteArrayInputStream(xml.getBytes("UTF-8")));
-            
-            NodeList items = doc.getElementsByTagName("item");
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
-            
-            for (int i = 0; i < items.getLength(); i++) {
-                Element item = (Element) items.item(i);
-                KamcoData data = new KamcoData();
-                
-                data.setMnmtNo(getTagValue("bidMnmtNo", item));
-                data.setCltrNm(getTagValue("cltrNm", item));
-                data.setDpslMtdCd(getTagValue("dpslMtdCd", item));
-                data.setNmrdAdrs(getTagValue("nmrdAdrs", item));
-                
-                String begnDtm = getTagValue("pbctBegnDtm", item);
-                if (begnDtm != null && !begnDtm.isEmpty()) {
-                    data.setPbctBegnDtm(LocalDateTime.parse(begnDtm, formatter));
-                }
-                
-                String clsDtm = getTagValue("pbctClsDtm", item);
-                if (clsDtm != null && !clsDtm.isEmpty()) {
-                    data.setPbctEndDtm(LocalDateTime.parse(clsDtm, formatter));
-                }
-                
-                data.setOtherInfo(getTagValue("ldnmAdrs", item));
-                dataList.add(data);
-            }
-        } catch (Exception e) {
-            log.error("[parseXmlResponse] Error parsing XML", e);
-        }
-        return dataList;
-    }
+
     
-    private String getTagValue(String tag, Element element) {
-        try {
-            NodeList nodeList = element.getElementsByTagName(tag);
-            if (nodeList.getLength() > 0) {
-                return nodeList.item(0).getTextContent();
-            }
-        } catch (Exception e) {
-            log.warn("[getTagValue] Failed to get tag: {}", tag);
-        }
-        return null;
+    private boolean isValid(KamcoItem item) {
+        return (item.getCLTR_MNMT_NO() != null && !item.getCLTR_MNMT_NO().trim().isEmpty())
+            || (item.getCLTR_NM() != null && !item.getCLTR_NM().trim().isEmpty());
     }
 
-    private KamcoResponse createResponse(List<KamcoData> items) {
-        KamcoResponse response = new KamcoResponse();
-        response.setResultCode("00");
-        response.setResultMsg("NORMAL SERVICE.");
-        response.setItems(items);
-        return response;
+
+
+    private void saveItems(List<KamcoItem> items, java.util.function.Consumer<KamcoItem> insertFunc) {
+        items.forEach(item -> {
+            try {
+                insertFunc.accept(item);
+            } catch (Exception e) {
+                log.error("INSERT 실패: {}", e.getMessage());
+            }
+        });
     }
+    
+
+
+    private KamcoResponse buildResponse(List<KamcoItem> items, boolean isMnmt) {
+        return new KamcoResponse(items.stream()
+            .map(item -> convertToDto(item, isMnmt))
+            .collect(Collectors.toList()));
+    }
+    
+    private KamcoResponse.Item convertToDto(KamcoItem item, boolean isMnmt) {
+        KamcoResponse.Item dto = KamcoItemMapper.toResponse(item);
+        if (isMnmt) {
+            dto.setCLTR_NM(null);
+        } else {
+            dto.setCLTR_MNMT_NO(null);
+        }
+        return dto;
+    }
+    
+
 }
