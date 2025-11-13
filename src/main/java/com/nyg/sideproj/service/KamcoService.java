@@ -6,12 +6,15 @@ import com.nyg.sideproj.entity.KamcoItem;
 import com.nyg.sideproj.mapper.KamcoMapper;
 import com.nyg.sideproj.util.KamcoItemMapper;
 import com.nyg.sideproj.util.XmlParser;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import java.util.*;
 import java.util.stream.Collectors;
+
 
 /**
  * KAMCO 공공데이터 API 서비스
@@ -20,6 +23,8 @@ import java.util.stream.Collectors;
 @Slf4j
 @Service
 @RequiredArgsConstructor
+@Data
+
 public class KamcoService {
     
     private final KamcoMapper mapper;
@@ -181,6 +186,29 @@ public class KamcoService {
         }
         return dto;
     }
-    
 
+
+    public KamcoResponse getKamcoItems() {
+        List<KamcoItem> entities = KamcoMapper.findAll();
+
+        // null 체크
+        if (entities == null || entities.isEmpty()) {
+            return new KamcoResponse(List.of());
+        }
+
+        List<KamcoResponse.Item> items = entities.stream()
+                .map(e -> new KamcoResponse.Item(
+                        e.getCLTR_MNMT_NO(),
+                        e.getPBCT_NO(),
+                        e.getCLTR_NM(),
+                        e.getMIN_BID_PRC(),
+                        e.getPBCT_BEGN_DTM(),
+                        e.getPBCT_CLS_DTM(),
+                        e.getAPSL_ASES_AVG_AMT(),
+                        e.getUSCBD_CNT()
+                ))
+                .collect(Collectors.toList());
+
+        return new KamcoResponse(items);
+    }
 }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>KAMCO 공매 목록</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f3f3f3;
+        }
+    </style>
+</head>
+<body>
+<h2>KAMCO 공매 목록</h2>
+
+<table>
+    <thead>
+    <tr>
+        <th>관리번호</th>
+        <th>공매번호</th>
+        <th>물건명</th>
+        <th>최저입찰가</th>
+        <th>입찰시작일시</th>
+        <th>입찰종료일시</th>
+        <th>감정가평균액</th>
+        <th>유찰횟수</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="item : ${response.items}">
+        <td th:text="${item.CLTR_MNMT_NO}">관리번호</td>
+        <td th:text="${item.PBCT_NO}">공매번호</td>
+        <td th:text="${item.CLTR_NM}">물건명</td>
+        <td th:text="${item.MIN_BID_PRC}">최저입찰가</td>
+        <td th:text="${item.PBCT_BEGN_DTM}">입찰시작일시</td>
+        <td th:text="${item.PBCT_CLS_DTM}">입찰종료일시</td>
+        <td th:text="${item.APSL_ASES_AVG_AMT}">감정가평균액</td>
+        <td th:text="${item.USCBD_CNT}">유찰횟수</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

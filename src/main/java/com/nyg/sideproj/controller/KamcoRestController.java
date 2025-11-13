@@ -5,7 +5,9 @@ import com.nyg.sideproj.dto.response.KamcoResponse;
 import com.nyg.sideproj.service.KamcoService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -15,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/kamco")
+@Validated
 public class KamcoRestController {
 
     private final KamcoService service;

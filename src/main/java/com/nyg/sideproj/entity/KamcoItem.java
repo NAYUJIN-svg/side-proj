@@ -1,13 +1,17 @@
 package com.nyg.sideproj.entity;
 
 import com.nyg.sideproj.dto.response.KamcoResponse;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * KAMCO DB Entity
  * - kamco_by_mnmt_no 테이블과 kamco_by_cltr_nm 테이블의 모든 컴럼 포함
  */
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class KamcoItem {
     
     // ========== 공통 컴럼 ==========
