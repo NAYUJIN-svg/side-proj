@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/kamco.css">
+    <title>물건관리번호 검색</title>
+
+    <style>
+        .search-box {
+            margin-bottom: 20px;
+        }
+
+        .search-box input {
+            padding: 10px;
+            width: 250px;
+            border: 1px solid #aaa;
+            border-radius: 6px;
+        }
+
+        .search-box button {
+            padding: 10px 16px;
+            background-color: #2b7cff;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .pagination {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .pagination a {
+            padding: 6px 12px;
+            margin: 0 3px;
+            border: 1px solid #ddd;
+            background-color: white;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .pagination a.active {
+            background-color: #2b7cff;
+            color: white;
+        }
+
+        th.sortable:hover {
+            cursor: pointer;
+            background-color: #1e5fcc;
+        }
+    </style>
+</head>
+
+<body>
+<div class="navbar">
+    <a href="/kamco/mnmt">물건관리번호</a>
+    <a href="/kamco/cltr">물건명</a>
+</div>
+
+<h2>물건관리번호 검색</h2>
+
+<form class="search-box" method="get" action="/kamco/mnmt">
+    <input type="text" name="keyword" placeholder="물건관리번호 검색" th:value="${keyword}">
+    <button type="submit">검색</button>
+</form>
+
+<table>
+    <thead>
+    <tr>
+        <th class="sortable" onclick="sortTable(0)">물건관리번호</th>
+        <th class="sortable" onclick="sortTable(1)">공고번호</th>
+        <th>최저입찰가</th>
+        <th>감정가액</th>
+        <th>입찰시작일</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr th:each="item : ${items}">
+        <td th:text="${item.CLTR_MNMT_NO}"></td>
+        <td th:text="${item.PBCT_NO}"></td>
+        <td th:text="${item.MIN_BID_PRC}"></td>
+        <td th:text="${item.APSL_ASES_AVG_AMT}"></td>
+        <td th:text="${item.PBCT_BEGN_DTM}"></td>
+    </tr>
+    </tbody>
+</table>
+
+<div class="pagination">
+    <a th:each="p : ${pages}"
+       th:href="@{/kamco/mnmt(page=${p}, keyword=${keyword})}"
+       th:text="${p}"
+       th:classappend="${currentPage == p} ? 'active'"></a>
+</div>
+
+<script>
+    function sortTable(idx) {
+        let table = document.querySelector("table tbody");
+        let rows = Array.from(table.rows);
+
+        let sorted = rows.sort((a, b) => {
+            return a.cells[idx].innerText.localeCompare(b.cells[idx].innerText);
+        });
+
+        sorted.forEach(r => table.appendChild(r));
+    }
+</script>
+
+</body>
+</html>

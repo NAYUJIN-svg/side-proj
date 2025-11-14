@@ -11,11 +11,9 @@ import java.util.List;
 @Mapper
 public interface KamcoMapper {
 
-    // DB에서 모든 KamcoItem 조회
     @Select("SELECT CLTR_MNMT_NO, PBCT_NO, CLTR_NM, MIN_BID_PRC, PBCT_BEGN_DTM, PBCT_CLS_DTM, APSL_ASES_AVG_AMT, USCBD_CNT FROM kamco_items")
-    public static List<KamcoItem> findAll() {
-        return null;
-    }
+    List<KamcoItem> findAll();
+
 
     @Update("DROP TABLE IF EXISTS kamco_by_mnmt_no")
     void dropMnmtTable();
@@ -54,4 +52,11 @@ public interface KamcoMapper {
     @Insert("INSERT INTO kamco_by_cltr_nm (CLTR_NM, PBCT_NO, PBCT_CLS_DTM, MIN_BID_PRC, USCBD_CNT) " +
             "VALUES (#{CLTR_NM}, #{PBCT_NO}, #{PBCT_CLS_DTM}, #{MIN_BID_PRC}, #{USCBD_CNT})")
     void insertByCltrNm(KamcoItem item);
+
+    @Select("SELECT * FROM kamco_by_mnmt_no")
+    List<KamcoItem> findAllMnmt();
+
+
+    @Select("SELECT * FROM kamco_by_cltr_nm")
+    List<KamcoItem> findAllCltr();
 }

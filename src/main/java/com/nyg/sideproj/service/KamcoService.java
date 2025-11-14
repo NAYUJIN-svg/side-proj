@@ -188,27 +188,13 @@ public class KamcoService {
     }
 
 
-    public KamcoResponse getKamcoItems() {
-        List<KamcoItem> entities = KamcoMapper.findAll();
-
-        // null 체크
-        if (entities == null || entities.isEmpty()) {
-            return new KamcoResponse(List.of());
-        }
-
-        List<KamcoResponse.Item> items = entities.stream()
-                .map(e -> new KamcoResponse.Item(
-                        e.getCLTR_MNMT_NO(),
-                        e.getPBCT_NO(),
-                        e.getCLTR_NM(),
-                        e.getMIN_BID_PRC(),
-                        e.getPBCT_BEGN_DTM(),
-                        e.getPBCT_CLS_DTM(),
-                        e.getAPSL_ASES_AVG_AMT(),
-                        e.getUSCBD_CNT()
-                ))
-                .collect(Collectors.toList());
-
-        return new KamcoResponse(items);
+    public List<KamcoItem> getByMnmt() {
+        return mapper.findAllMnmt();
     }
+
+    public List<KamcoItem> getByCltr() {
+        return mapper.findAllCltr();
+    }
+
+
 }

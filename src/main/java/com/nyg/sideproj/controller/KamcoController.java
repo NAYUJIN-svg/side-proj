@@ -6,30 +6,26 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequiredArgsConstructor
+@RequestMapping("/kamco")
 public class KamcoController {
 
     private final KamcoService kamcoService;
 
-    @GetMapping("/kamco")
-    public String getKamcoItems(Model model) {
-        // 서비스에서 데이터 조회
-        KamcoResponse response = kamcoService.getKamcoItems();
+    // 물건관리번호 화면
+    @GetMapping("/mnmt")
+    public String mnmtList(Model model) {
+        model.addAttribute("items", kamcoService.getByMnmt());
+        return "kamco_mnmt"; // templates/kamco_mnmt.html
+    }
 
-        // response 또는 items가 null이면 빈 객체/리스트로 초기화
-        if (response == null) {
-            response = new KamcoResponse();
-        }
-        if (response.getItems() == null) {
-            response.setItems(java.util.Collections.emptyList());
-        }
-
-        // 모델에 담아서 Thymeleaf로 전달
-        model.addAttribute("response", response);
-
-        // templates/kamco.html 뷰 호출
-        return "kamco";
+    // 물건명 화면
+    @GetMapping("/cltr")
+    public String cltrList(Model model) {
+        model.addAttribute("items", kamcoService.getByCltr());
+        return "kamco_cltr"; // templates/kamco_cltr.html
     }
 }
