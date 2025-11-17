@@ -26,6 +26,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-cache'
     implementation 'org.springframework.boot:spring-boot-starter-aop'
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.5'
+
     
     // XML 바인딩
     implementation 'jakarta.xml.bind:jakarta.xml.bind-api:4.0.0'
