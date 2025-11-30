@@ -5,7 +5,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.nyg.sideproj.mapper")
+@MapperScan("com.nyg.sideproj.list.mapper")
+@MapperScan("com.nyg.sideproj.login.mapper")
 public class SideProjApplication {
 
     public static void main(String[] args) {

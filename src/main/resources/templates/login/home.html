@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>홈</title>
+</head>
+<body>
+<h2>홈 화면</h2>
+<p th:if="${user}" th:text="'환영합니다, ' + ${user.name} + '님!'"></p>
+</body>
+</html>

@@ -1,0 +1,519 @@
+2025-11-30 22:33:42 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 10236 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:33:42 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:33:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:33:43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:33:43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:33:43 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:33:43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 511 ms
+2025-11-30 22:33:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2025-11-30 22:33:43 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.mariadb.jdbc.Connection@694bba62
+2025-11-30 22:33:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2025-11-30 22:33:43 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:33:43 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:33:43 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:33:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:33:43 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.191 seconds (process running for 425.814)
+2025-11-30 22:33:43 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 22:34:09 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:34:09 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:34:09 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2025-11-30 22:34:09 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2025-11-30 22:34:12 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 19552 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:34:12 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:34:12 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-30 22:34:12 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-30 22:34:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:34:14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:34:14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:34:14 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:34:14 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2238 ms
+2025-11-30 22:34:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-30 22:34:14 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@552412e3
+2025-11-30 22:34:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-30 22:34:15 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:34:15 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:34:15 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:34:15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:34:15 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 4.242 seconds (process running for 5.026)
+2025-11-30 22:34:47 [http-nio-0.0.0.0-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-30 22:34:47 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-30 22:34:47 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-30 22:38:20 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 11 class path changes (0 additions, 0 deletions, 11 modifications)
+2025-11-30 22:38:20 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:38:20 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:38:20 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-30 22:38:20 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-30 22:38:20 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 19552 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:38:20 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:38:21 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:38:21 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:38:21 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:38:21 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:38:21 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:38:21 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:38:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:38:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:38:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:38:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:38:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 627 ms
+2025-11-30 22:38:21 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:38:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-11-30 22:38:21 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.mariadb.jdbc.Connection@a9565f9
+2025-11-30 22:38:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-11-30 22:38:21 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:38:22 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:38:22 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:38:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:38:22 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.501 seconds (process running for 251.24)
+2025-11-30 22:38:22 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 22:42:27 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:42:27 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:42:27 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-11-30 22:42:27 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-11-30 22:42:30 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 24032 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:42:30 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:42:30 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-30 22:42:30 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-30 22:42:31 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:42:31 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:42:31 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:42:31 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:42:31 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:42:31 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:42:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:42:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:42:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:42:32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:42:32 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1935 ms
+2025-11-30 22:42:32 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:42:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-30 22:42:32 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@14d9fae2
+2025-11-30 22:42:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-30 22:42:33 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:42:33 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:42:34 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:42:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:42:34 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 4.085 seconds (process running for 5.199)
+2025-11-30 22:43:01 [http-nio-0.0.0.0-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-30 22:43:01 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-30 22:43:01 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-30 22:43:01 [http-nio-0.0.0.0-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 22:43:01 [http-nio-0.0.0.0-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@226d6706] was not registered for synchronization because synchronization is not active
+2025-11-30 22:43:01 [http-nio-0.0.0.0-8001-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2021868893 wrapping org.mariadb.jdbc.Connection@14d9fae2] will not be managed by Spring
+2025-11-30 22:43:02 [http-nio-0.0.0.0-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@226d6706]
+2025-11-30 22:48:20 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (0 additions, 4 deletions, 0 modifications)
+2025-11-30 22:48:20 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:48:20 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:48:20 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-30 22:48:20 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-30 22:48:20 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 24032 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:48:20 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:48:20 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:48:20 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:48:20 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:48:20 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:48:20 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:48:20 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:48:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:48:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:48:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:48:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:48:21 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 883 ms
+2025-11-30 22:48:21 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:48:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-11-30 22:48:21 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.mariadb.jdbc.Connection@4e1dbbad
+2025-11-30 22:48:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-11-30 22:48:21 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:48:21 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:48:21 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:48:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:48:21 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.791 seconds (process running for 352.931)
+2025-11-30 22:48:21 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 22:48:23 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
+2025-11-30 22:48:23 [Thread-7] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:48:23 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:48:23 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-11-30 22:48:23 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-11-30 22:48:23 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 24032 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:48:23 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:48:23 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:48:23 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:48:23 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:48:23 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:48:23 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:48:23 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:48:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:48:23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:48:23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:48:23 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:48:23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 403 ms
+2025-11-30 22:48:23 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:48:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-11-30 22:48:24 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.mariadb.jdbc.Connection@5fc09eb6
+2025-11-30 22:48:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-11-30 22:48:24 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:48:24 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:48:24 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:48:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:48:24 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.12 seconds (process running for 355.6)
+2025-11-30 22:48:24 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 22:49:27 [http-nio-0.0.0.0-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-30 22:49:27 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-30 22:49:27 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-30 22:49:27 [http-nio-0.0.0.0-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 22:49:27 [http-nio-0.0.0.0-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4444b13d] was not registered for synchronization because synchronization is not active
+2025-11-30 22:49:27 [http-nio-0.0.0.0-8001-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@555168084 wrapping org.mariadb.jdbc.Connection@5fc09eb6] will not be managed by Spring
+2025-11-30 22:49:27 [http-nio-0.0.0.0-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4444b13d]
+2025-11-30 22:50:47 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2025-11-30 22:50:47 [Thread-11] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:50:47 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:50:47 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-11-30 22:50:47 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-11-30 22:50:47 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 24032 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:50:47 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:50:48 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:50:48 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:50:48 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:50:48 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:50:48 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:50:48 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:50:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:50:48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:50:48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:50:48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:50:48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1289 ms
+2025-11-30 22:50:49 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:50:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-11-30 22:50:49 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.mariadb.jdbc.Connection@1eb54140
+2025-11-30 22:50:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-11-30 22:50:49 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:50:49 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:50:49 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:50:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:50:49 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 2.407 seconds (process running for 500.919)
+2025-11-30 22:50:49 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 22:50:51 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2025-11-30 22:50:51 [Thread-15] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:50:51 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:50:51 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-11-30 22:50:51 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-11-30 22:50:51 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 24032 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:50:51 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:50:51 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:50:51 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:50:51 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:50:51 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:50:51 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:50:51 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:50:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:50:51 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:50:51 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:50:51 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:50:51 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 424 ms
+2025-11-30 22:50:51 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:50:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2025-11-30 22:50:51 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.mariadb.jdbc.Connection@45725d69
+2025-11-30 22:50:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2025-11-30 22:50:52 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:50:52 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:50:52 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:50:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:50:52 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.037 seconds (process running for 503.415)
+2025-11-30 22:50:52 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 22:51:46 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (0 additions, 4 deletions, 0 modifications)
+2025-11-30 22:51:46 [Thread-19] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:51:46 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:51:46 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2025-11-30 22:51:46 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2025-11-30 22:51:46 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 24032 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:51:46 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:51:47 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:51:47 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:51:47 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:51:47 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:51:47 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:51:47 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:51:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:51:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:51:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:51:47 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:51:47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 768 ms
+2025-11-30 22:51:47 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:51:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2025-11-30 22:51:47 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.mariadb.jdbc.Connection@15561458
+2025-11-30 22:51:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2025-11-30 22:51:48 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:51:49 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:51:49 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:51:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:51:49 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 2.464 seconds (process running for 560.278)
+2025-11-30 22:51:49 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 22:51:50 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
+2025-11-30 22:51:50 [Thread-23] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:51:50 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:51:50 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2025-11-30 22:51:50 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2025-11-30 22:51:50 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 24032 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:51:50 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:51:50 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:51:50 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:51:50 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:51:50 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:51:50 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:51:50 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:51:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:51:51 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:51:51 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:51:51 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:51:51 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 365 ms
+2025-11-30 22:51:51 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:51:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2025-11-30 22:51:51 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.mariadb.jdbc.Connection@887d3f0
+2025-11-30 22:51:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2025-11-30 22:51:51 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:51:51 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:51:51 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:51:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:51:51 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 0.997 seconds (process running for 562.721)
+2025-11-30 22:51:51 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 22:51:56 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 5 class path changes (0 additions, 5 deletions, 0 modifications)
+2025-11-30 22:51:56 [Thread-27] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:51:56 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:51:56 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2025-11-30 22:51:56 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2025-11-30 22:51:56 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 24032 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:51:56 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:51:56 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:51:56 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:51:56 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:51:56 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:51:56 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:51:56 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:51:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:51:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:51:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:51:57 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:51:57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 807 ms
+2025-11-30 22:51:57 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:51:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2025-11-30 22:51:57 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.mariadb.jdbc.Connection@4e629ea6
+2025-11-30 22:51:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2025-11-30 22:51:57 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:51:57 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:51:58 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:51:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:51:58 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.869 seconds (process running for 569.102)
+2025-11-30 22:51:58 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 22:51:59 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 5 class path changes (5 additions, 0 deletions, 0 modifications)
+2025-11-30 22:51:59 [Thread-31] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:51:59 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:51:59 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2025-11-30 22:51:59 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2025-11-30 22:51:59 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 24032 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:51:59 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:52:00 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:52:00 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:52:00 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:52:00 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:52:00 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:52:00 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:52:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:52:00 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:52:00 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:52:00 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:52:00 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 772 ms
+2025-11-30 22:52:00 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:52:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2025-11-30 22:52:00 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.mariadb.jdbc.Connection@598cdc89
+2025-11-30 22:52:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2025-11-30 22:52:01 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:52:01 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:52:01 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:52:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:52:01 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.772 seconds (process running for 572.464)
+2025-11-30 22:52:01 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 22:52:03 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 5 class path changes (0 additions, 5 deletions, 0 modifications)
+2025-11-30 22:52:03 [Thread-35] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:52:03 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:52:03 [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2025-11-30 22:52:03 [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2025-11-30 22:52:04 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 24032 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:52:04 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:52:04 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:52:04 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:52:04 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:52:04 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:52:04 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:52:04 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:52:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:52:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:52:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:52:04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:52:04 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 780 ms
+2025-11-30 22:52:04 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:52:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+2025-11-30 22:52:04 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.mariadb.jdbc.Connection@7c8d9281
+2025-11-30 22:52:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+2025-11-30 22:52:05 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:52:05 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:52:05 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:52:05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:52:05 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.737 seconds (process running for 576.723)
+2025-11-30 22:52:05 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 22:52:07 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 5 class path changes (5 additions, 0 deletions, 0 modifications)
+2025-11-30 22:52:07 [Thread-39] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:52:07 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:52:07 [Thread-39] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2025-11-30 22:52:07 [Thread-39] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+2025-11-30 22:52:07 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 24032 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:52:07 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:52:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:52:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:52:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:52:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:52:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:52:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:52:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:52:07 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:52:07 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:52:07 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:52:07 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 386 ms
+2025-11-30 22:52:07 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:52:07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+2025-11-30 22:52:07 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.mariadb.jdbc.Connection@6033229a
+2025-11-30 22:52:07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+2025-11-30 22:52:07 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:52:08 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:52:08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:52:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:52:08 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.027 seconds (process running for 579.209)
+2025-11-30 22:52:08 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 22:53:07 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:53:07 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:53:07 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+2025-11-30 22:53:07 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+2025-11-30 22:56:20 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 1680 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:56:20 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:56:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-30 22:56:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-30 22:56:21 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:56:21 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:56:21 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:56:21 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:56:21 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:56:21 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:56:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:56:22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:56:22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:56:22 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:56:22 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1823 ms
+2025-11-30 22:56:22 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:56:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-30 22:56:23 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@709edcce
+2025-11-30 22:56:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-30 22:56:23 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:56:23 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:56:24 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:56:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:56:24 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 3.825 seconds (process running for 4.783)
+2025-11-30 22:56:33 [http-nio-0.0.0.0-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-30 22:56:33 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-30 22:56:33 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-30 22:58:56 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-11-30 22:58:56 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:58:56 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:58:56 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-30 22:58:56 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-30 22:58:56 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 1680 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:58:56 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:58:56 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:58:56 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:58:56 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:58:56 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:58:56 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:58:56 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:58:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:58:56 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:58:56 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:58:56 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:58:56 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 588 ms
+2025-11-30 22:58:56 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:58:56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-11-30 22:58:56 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.mariadb.jdbc.Connection@72ed7a81
+2025-11-30 22:58:56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-11-30 22:58:57 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:58:57 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:58:57 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:58:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:58:57 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.642 seconds (process running for 158.314)
+2025-11-30 22:58:57 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 22:59:07 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-30 22:59:07 [Thread-7] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 22:59:07 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 22:59:07 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-11-30 22:59:07 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-11-30 22:59:07 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 1680 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 22:59:07 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 22:59:08 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 22:59:08 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 22:59:08 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 22:59:08 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 22:59:08 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 22:59:08 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 22:59:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 22:59:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 22:59:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 22:59:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 22:59:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 535 ms
+2025-11-30 22:59:08 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 22:59:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-11-30 22:59:08 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.mariadb.jdbc.Connection@54e027ee
+2025-11-30 22:59:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-11-30 22:59:08 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 22:59:08 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 22:59:09 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 22:59:09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 22:59:09 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.235 seconds (process running for 169.599)
+2025-11-30 22:59:09 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:01:24 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:01:24 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:01:24 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-11-30 23:01:24 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-11-30 23:01:27 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 11772 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:01:27 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:01:27 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-30 23:01:27 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-30 23:01:29 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:01:29 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:01:29 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:01:29 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:01:29 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:01:29 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:01:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:01:30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:01:30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:01:30 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:01:30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2401 ms
+2025-11-30 23:01:30 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:01:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-30 23:01:30 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3976ff50
+2025-11-30 23:01:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-30 23:01:31 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:01:31 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:01:32 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:01:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:01:32 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 4.906 seconds (process running for 5.931)
+2025-11-30 23:03:52 [http-nio-0.0.0.0-8001-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-30 23:03:52 [http-nio-0.0.0.0-8001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-30 23:03:52 [http-nio-0.0.0.0-8001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-11-30 23:04:46 [http-nio-0.0.0.0-8001-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-11-30 23:04:51 [http-nio-0.0.0.0-8001-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-11-30 23:04:53 [http-nio-0.0.0.0-8001-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-11-30 23:06:20 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:06:20 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b256abe] was not registered for synchronization because synchronization is not active
+2025-11-30 23:06:20 [http-nio-0.0.0.0-8001-exec-3] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2125349980 wrapping org.mariadb.jdbc.Connection@3976ff50] will not be managed by Spring
+2025-11-30 23:06:20 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b256abe]
+2025-11-30 23:06:52 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:06:52 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e0099d5] was not registered for synchronization because synchronization is not active
+2025-11-30 23:06:52 [http-nio-0.0.0.0-8001-exec-4] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@237351038 wrapping org.mariadb.jdbc.Connection@3976ff50] will not be managed by Spring
+2025-11-30 23:06:52 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e0099d5]
