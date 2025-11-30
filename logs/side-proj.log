@@ -517,3 +517,1192 @@
 2025-11-30 23:06:52 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e0099d5] was not registered for synchronization because synchronization is not active
 2025-11-30 23:06:52 [http-nio-0.0.0.0-8001-exec-4] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@237351038 wrapping org.mariadb.jdbc.Connection@3976ff50] will not be managed by Spring
 2025-11-30 23:06:52 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e0099d5]
+2025-11-30 23:10:10 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-11-30 23:10:10 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:10:10 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:10:10 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-30 23:10:10 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-30 23:10:10 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 11772 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:10:10 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:10:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:10:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:10:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:10:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:10:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:10:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:10:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:10:11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:10:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:10:11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:10:11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 770 ms
+2025-11-30 23:10:11 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:10:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-11-30 23:10:11 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.mariadb.jdbc.Connection@5c782286
+2025-11-30 23:10:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-11-30 23:10:11 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:10:11 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:10:11 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:10:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:10:11 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.641 seconds (process running for 525.725)
+2025-11-30 23:10:11 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:10:13 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-11-30 23:10:13 [Thread-7] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:10:13 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:10:13 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-11-30 23:10:13 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-11-30 23:10:13 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 11772 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:10:13 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:10:13 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:10:13 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:10:13 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:10:13 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:10:13 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:10:13 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:10:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:10:14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:10:14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:10:14 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:10:14 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 666 ms
+2025-11-30 23:10:14 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:10:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-11-30 23:10:14 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.mariadb.jdbc.Connection@7c6d430d
+2025-11-30 23:10:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-11-30 23:10:14 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:10:15 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:10:15 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:10:15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:10:15 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.723 seconds (process running for 528.918)
+2025-11-30 23:10:15 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:10:23 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 10 class path changes (0 additions, 0 deletions, 10 modifications)
+2025-11-30 23:10:23 [Thread-11] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:10:23 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:10:23 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-11-30 23:10:23 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-11-30 23:10:23 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 11772 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:10:23 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:10:24 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:10:24 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:10:24 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:10:24 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:10:24 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:10:24 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:10:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:10:24 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:10:24 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:10:24 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:10:24 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 645 ms
+2025-11-30 23:10:24 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:10:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-11-30 23:10:24 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.mariadb.jdbc.Connection@41bdf7ab
+2025-11-30 23:10:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-11-30 23:10:24 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:10:25 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:10:25 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:10:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:10:25 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.532 seconds (process running for 539.069)
+2025-11-30 23:10:25 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:10:31 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 10 class path changes (0 additions, 0 deletions, 10 modifications)
+2025-11-30 23:10:31 [Thread-15] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:10:31 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:10:31 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-11-30 23:10:31 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-11-30 23:10:31 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 11772 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:10:31 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:10:32 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:10:32 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:10:32 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:10:32 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:10:32 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:10:32 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:10:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:10:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:10:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:10:32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:10:32 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 605 ms
+2025-11-30 23:10:32 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:10:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2025-11-30 23:10:32 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.mariadb.jdbc.Connection@18294178
+2025-11-30 23:10:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2025-11-30 23:10:32 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:10:33 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:10:33 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:10:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:10:33 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.332 seconds (process running for 546.984)
+2025-11-30 23:10:33 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:12:06 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 5 class path changes (0 additions, 5 deletions, 0 modifications)
+2025-11-30 23:12:06 [Thread-19] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:12:06 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:12:06 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2025-11-30 23:12:06 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2025-11-30 23:12:06 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 11772 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:12:06 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:12:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:12:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:12:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:12:07 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.nyg.sideproj.login.mapper]' package. Please check your configuration.
+2025-11-30 23:12:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:12:07 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:12:07 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:12:07 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:12:07 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 721 ms
+2025-11-30 23:12:07 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:12:07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2025-11-30 23:12:07 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.mariadb.jdbc.Connection@590c7f56
+2025-11-30 23:12:07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2025-11-30 23:12:07 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:12:07 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:12:08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:12:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:12:08 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.587 seconds (process running for 641.805)
+2025-11-30 23:12:08 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:12:09 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 5 class path changes (5 additions, 0 deletions, 0 modifications)
+2025-11-30 23:12:09 [Thread-23] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:12:09 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:12:09 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2025-11-30 23:12:09 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2025-11-30 23:12:09 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 11772 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:12:09 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:12:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:12:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:12:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:12:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:12:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:12:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:12:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:12:10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:12:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:12:10 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:12:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1126 ms
+2025-11-30 23:12:10 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:12:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2025-11-30 23:12:10 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.mariadb.jdbc.Connection@476f1409
+2025-11-30 23:12:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2025-11-30 23:12:11 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:12:11 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:12:11 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:12:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:12:11 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.998 seconds (process running for 645.311)
+2025-11-30 23:12:11 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:13:43 [http-nio-0.0.0.0-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-30 23:13:43 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-30 23:13:43 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-30 23:14:53 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 13 class path changes (3 additions, 3 deletions, 7 modifications)
+2025-11-30 23:14:53 [Thread-27] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:14:53 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:14:53 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2025-11-30 23:14:53 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2025-11-30 23:14:53 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 11772 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:14:53 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:14:54 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:14:54 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:14:54 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:14:54 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:14:54 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:14:54 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:14:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:14:54 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:14:54 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:14:54 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:14:54 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 377 ms
+2025-11-30 23:14:54 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:14:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2025-11-30 23:14:54 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.mariadb.jdbc.Connection@7d610c70
+2025-11-30 23:14:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2025-11-30 23:14:54 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:14:54 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:14:54 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:14:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:14:54 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 0.945 seconds (process running for 808.64)
+2025-11-30 23:14:54 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:15:01 [http-nio-0.0.0.0-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-30 23:15:01 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-30 23:15:01 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-30 23:16:44 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:16:44 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:16:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2025-11-30 23:16:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2025-11-30 23:16:49 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 9436 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:16:49 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:16:49 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-30 23:16:49 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-30 23:16:50 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:16:50 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:16:50 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:16:50 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:16:50 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:16:50 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:16:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:16:51 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:16:51 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:16:51 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:16:51 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2017 ms
+2025-11-30 23:16:51 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:16:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-30 23:16:51 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@5accb986
+2025-11-30 23:16:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-30 23:16:51 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:16:52 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:16:52 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:16:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:16:52 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 4.208 seconds (process running for 5.104)
+2025-11-30 23:16:57 [http-nio-0.0.0.0-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-30 23:16:57 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-30 23:16:57 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-30 23:18:23 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:18:23 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:18:23 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-30 23:18:23 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-30 23:18:27 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 11048 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:18:27 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:18:27 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-30 23:18:27 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-30 23:18:28 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:18:28 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:18:28 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:18:28 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:18:28 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:18:28 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:18:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:18:29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:18:29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:18:29 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:18:29 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1997 ms
+2025-11-30 23:18:30 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:18:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-30 23:18:30 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6dbd24c3
+2025-11-30 23:18:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-30 23:18:30 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:18:31 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:18:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:18:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:18:31 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 4.37 seconds (process running for 5.289)
+2025-11-30 23:18:33 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:18:33 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:18:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-30 23:18:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-30 23:18:36 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 20648 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:18:36 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:18:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-30 23:18:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-30 23:18:37 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:18:37 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:18:37 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:18:37 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:18:37 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:18:37 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:18:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:18:38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:18:38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:18:38 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:18:38 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1837 ms
+2025-11-30 23:18:38 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:18:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-30 23:18:38 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6dbd24c3
+2025-11-30 23:18:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-30 23:18:39 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:18:39 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:18:40 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:18:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:18:40 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 4.347 seconds (process running for 5.154)
+2025-11-30 23:18:43 [http-nio-0.0.0.0-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-30 23:18:43 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-30 23:18:43 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-11-30 23:19:55 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:19:55 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:19:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-30 23:19:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-30 23:20:00 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 21028 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:20:00 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:20:00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-30 23:20:00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-30 23:20:01 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:20:01 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:20:01 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:20:01 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:20:01 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:20:01 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:20:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:20:02 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:20:02 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:20:02 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:20:02 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2036 ms
+2025-11-30 23:20:02 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:20:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-30 23:20:02 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@682cfae9
+2025-11-30 23:20:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-30 23:20:02 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:20:03 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:20:03 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:20:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:20:03 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 4.219 seconds (process running for 5.13)
+2025-11-30 23:20:30 [http-nio-0.0.0.0-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-30 23:20:30 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-30 23:20:30 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-30 23:20:44 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:20:44 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@164854d9] was not registered for synchronization because synchronization is not active
+2025-11-30 23:20:44 [http-nio-0.0.0.0-8001-exec-3] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@935807884 wrapping org.mariadb.jdbc.Connection@682cfae9] will not be managed by Spring
+2025-11-30 23:20:44 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@164854d9]
+2025-11-30 23:21:20 [http-nio-0.0.0.0-8001-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-11-30 23:22:49 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-11-30 23:22:49 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:22:49 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:22:49 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-30 23:22:49 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-30 23:22:49 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 21028 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:22:49 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:22:49 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:22:49 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:22:49 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:22:49 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:22:49 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:22:49 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:22:50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:22:50 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:22:50 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:22:50 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:22:50 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 743 ms
+2025-11-30 23:22:50 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:22:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-11-30 23:22:50 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.mariadb.jdbc.Connection@1d8f66ae
+2025-11-30 23:22:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-11-30 23:22:50 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:22:50 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:22:51 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:22:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:22:51 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.855 seconds (process running for 172.559)
+2025-11-30 23:22:51 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:22:52 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-11-30 23:22:52 [Thread-7] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:22:52 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:22:52 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-11-30 23:22:52 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-11-30 23:22:52 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 21028 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:22:52 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:22:53 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:22:53 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:22:53 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:22:53 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:22:53 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:22:53 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:22:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:22:53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:22:53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:22:53 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:22:53 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 560 ms
+2025-11-30 23:22:53 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:22:53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-11-30 23:22:53 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.mariadb.jdbc.Connection@1f49fab8
+2025-11-30 23:22:53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-11-30 23:22:53 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:22:53 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:22:53 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:22:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:22:53 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.243 seconds (process running for 175.287)
+2025-11-30 23:22:53 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:25:04 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-11-30 23:25:04 [Thread-11] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:25:04 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:25:04 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-11-30 23:25:04 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-11-30 23:25:04 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 21028 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:25:04 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:25:05 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:25:05 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:25:05 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:25:05 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:25:05 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:25:05 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:25:05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:25:05 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:25:05 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:25:05 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:25:05 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 685 ms
+2025-11-30 23:25:05 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:25:05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-11-30 23:25:05 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.mariadb.jdbc.Connection@5e353f47
+2025-11-30 23:25:05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-11-30 23:25:05 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:25:06 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:25:06 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:25:06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:25:06 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.617 seconds (process running for 307.582)
+2025-11-30 23:25:06 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:25:07 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-11-30 23:25:07 [Thread-15] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:25:07 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:25:07 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-11-30 23:25:07 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-11-30 23:25:07 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 21028 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:25:07 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:25:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:25:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:25:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:25:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:25:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:25:07 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:25:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:25:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:25:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:25:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:25:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 391 ms
+2025-11-30 23:25:08 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:25:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2025-11-30 23:25:08 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.mariadb.jdbc.Connection@53c9f042
+2025-11-30 23:25:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2025-11-30 23:25:08 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:25:08 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:25:08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:25:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:25:08 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.07 seconds (process running for 310.126)
+2025-11-30 23:25:08 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:26:10 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-11-30 23:26:10 [Thread-19] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:26:10 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:26:10 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2025-11-30 23:26:10 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2025-11-30 23:26:10 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 21028 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:26:10 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:26:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:26:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:26:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:26:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:26:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:26:10 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:26:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:26:10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:26:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:26:10 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:26:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 439 ms
+2025-11-30 23:26:10 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:26:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2025-11-30 23:26:10 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.mariadb.jdbc.Connection@4857c2c9
+2025-11-30 23:26:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2025-11-30 23:26:11 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:26:11 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:26:11 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:26:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:26:11 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.377 seconds (process running for 373.027)
+2025-11-30 23:26:11 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:26:13 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-11-30 23:26:13 [Thread-23] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:26:13 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:26:13 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2025-11-30 23:26:13 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2025-11-30 23:26:13 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 21028 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:26:13 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:26:13 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:26:13 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:26:13 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:26:13 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:26:13 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:26:13 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:26:13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:26:13 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:26:13 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:26:13 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:26:13 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 361 ms
+2025-11-30 23:26:13 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:26:13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2025-11-30 23:26:13 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.mariadb.jdbc.Connection@470b8742
+2025-11-30 23:26:13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2025-11-30 23:26:13 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:26:13 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:26:14 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:26:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:26:14 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 0.961 seconds (process running for 375.44)
+2025-11-30 23:26:14 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:27:10 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-11-30 23:27:10 [Thread-27] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:27:10 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:27:10 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2025-11-30 23:27:10 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2025-11-30 23:27:10 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 21028 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:27:10 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:27:11 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:27:11 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:27:11 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:27:11 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:27:11 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:27:11 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:27:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:27:11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:27:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:27:11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:27:11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 800 ms
+2025-11-30 23:27:11 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:27:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2025-11-30 23:27:11 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.mariadb.jdbc.Connection@c5070d3
+2025-11-30 23:27:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2025-11-30 23:27:11 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:27:11 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:27:12 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:27:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:27:12 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.719 seconds (process running for 433.645)
+2025-11-30 23:27:12 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:27:13 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-11-30 23:27:13 [Thread-31] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:27:13 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:27:13 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2025-11-30 23:27:13 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2025-11-30 23:27:13 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 21028 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:27:13 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:27:14 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:27:14 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:27:14 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:27:14 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:27:14 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:27:14 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:27:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:27:14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:27:14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:27:14 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:27:14 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 429 ms
+2025-11-30 23:27:14 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:27:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2025-11-30 23:27:14 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.mariadb.jdbc.Connection@7daad2ec
+2025-11-30 23:27:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2025-11-30 23:27:14 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:27:14 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:27:14 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:27:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:27:14 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.057 seconds (process running for 436.17)
+2025-11-30 23:27:14 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:27:16 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:27:16 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:27:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2025-11-30 23:27:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2025-11-30 23:29:30 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 19008 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:29:30 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:29:30 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-30 23:29:30 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-30 23:29:31 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:29:31 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:29:31 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:29:31 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:29:31 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:29:31 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:29:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:29:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:29:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:29:32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:29:32 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1936 ms
+2025-11-30 23:29:32 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:29:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-30 23:29:32 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@682cfae9
+2025-11-30 23:29:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-30 23:29:32 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:29:33 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:29:33 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:29:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:29:33 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 4.21 seconds (process running for 5.133)
+2025-11-30 23:29:56 [http-nio-0.0.0.0-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-30 23:29:56 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-30 23:29:56 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-30 23:30:15 [http-nio-0.0.0.0-8001-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-11-30 23:31:08 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2025-11-30 23:31:08 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:31:08 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:31:08 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-30 23:31:08 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-30 23:31:08 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 19008 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:31:08 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:31:09 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:31:09 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:31:09 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:31:09 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:31:09 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:31:09 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:31:09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:31:09 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:31:09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:31:09 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:31:09 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 640 ms
+2025-11-30 23:31:09 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:31:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-11-30 23:31:09 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.mariadb.jdbc.Connection@65d36ce6
+2025-11-30 23:31:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-11-30 23:31:09 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:31:10 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:31:10 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:31:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:31:10 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.544 seconds (process running for 101.691)
+2025-11-30 23:31:10 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:31:11 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2025-11-30 23:31:11 [Thread-7] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:31:11 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:31:11 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-11-30 23:31:11 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-11-30 23:31:11 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 19008 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:31:11 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:31:12 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:31:12 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:31:12 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:31:12 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:31:12 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:31:12 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:31:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:31:12 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:31:12 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:31:12 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:31:12 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 423 ms
+2025-11-30 23:31:12 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:31:12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-11-30 23:31:12 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.mariadb.jdbc.Connection@74122f62
+2025-11-30 23:31:12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-11-30 23:31:12 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:31:12 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:31:12 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:31:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:31:12 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.074 seconds (process running for 104.243)
+2025-11-30 23:31:12 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:31:35 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2025-11-30 23:31:35 [Thread-11] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:31:35 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:31:35 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-11-30 23:31:35 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-11-30 23:31:35 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 19008 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:31:35 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:31:36 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:31:36 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:31:36 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:31:36 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:31:36 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:31:36 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:31:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:31:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:31:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:31:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:31:36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 454 ms
+2025-11-30 23:31:36 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:31:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-11-30 23:31:36 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.mariadb.jdbc.Connection@48c5fda8
+2025-11-30 23:31:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-11-30 23:31:36 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:31:36 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:31:37 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:31:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:31:37 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 1.29 seconds (process running for 128.354)
+2025-11-30 23:31:37 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:31:39 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2025-11-30 23:31:39 [Thread-15] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:31:39 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:31:39 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-11-30 23:31:39 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-11-30 23:31:39 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 19008 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:31:39 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:31:40 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:31:40 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:31:40 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:31:40 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:31:40 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:31:40 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:31:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:31:40 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:31:40 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:31:40 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:31:40 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 351 ms
+2025-11-30 23:31:40 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:31:40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2025-11-30 23:31:40 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.mariadb.jdbc.Connection@148cfaf3
+2025-11-30 23:31:40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2025-11-30 23:31:40 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:31:40 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:31:40 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:31:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:31:40 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 0.904 seconds (process running for 132.14)
+2025-11-30 23:31:40 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-30 23:31:56 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30 23:31:56 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-30 23:31:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2025-11-30 23:31:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2025-11-30 23:32:05 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Starting SideProjApplication using Java 21.0.8 with PID 8876 (D:\work\s9_sideproj\side-proj\build\classes\java\main started by 나유진 in D:\work\s9_sideproj\side-proj)
+2025-11-30 23:32:05 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-30 23:32:05 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-30 23:32:05 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-30 23:32:06 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\list\mapper\KamcoMapper.class]
+2025-11-30 23:32:06 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'kamcoMapper' and 'com.nyg.sideproj.list.mapper.KamcoMapper' mapperInterface
+2025-11-30 23:32:06 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'kamcoMapper'.
+2025-11-30 23:32:06 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\work\s9_sideproj\side-proj\build\classes\java\main\com\nyg\sideproj\login\mapper\UserMapper.class]
+2025-11-30 23:32:06 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.nyg.sideproj.login.mapper.UserMapper' mapperInterface
+2025-11-30 23:32:06 [restartedMain] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2025-11-30 23:32:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-11-30 23:32:07 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-30 23:32:07 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-30 23:32:07 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-30 23:32:07 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1844 ms
+2025-11-30 23:32:07 [restartedMain] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2025-11-30 23:32:07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-30 23:32:07 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@5403d33b
+2025-11-30 23:32:07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-30 23:32:07 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-11-30 23:32:08 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost/testdb?user=root&password=***&useSSL=false&allowPublicKeyRetrieval=true'
+2025-11-30 23:32:08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-30 23:32:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-11-30 23:32:08 [restartedMain] INFO  c.nyg.sideproj.SideProjApplication - Started SideProjApplication in 3.88 seconds (process running for 4.642)
+2025-11-30 23:32:20 [http-nio-0.0.0.0-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-30 23:32:20 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-30 23:32:20 [http-nio-0.0.0.0-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-11-30 23:32:20 [http-nio-0.0.0.0-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:32:20 [http-nio-0.0.0.0-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@765ba150] was not registered for synchronization because synchronization is not active
+2025-11-30 23:32:20 [http-nio-0.0.0.0-8001-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@56861005 wrapping org.mariadb.jdbc.Connection@5403d33b] will not be managed by Spring
+2025-11-30 23:32:20 [http-nio-0.0.0.0-8001-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@765ba150]
+2025-11-30 23:32:31 [http-nio-0.0.0.0-8001-exec-5] INFO  c.n.s.list.service.KamcoService - === /mnmt API 시작 ===
+2025-11-30 23:32:31 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:32:31 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:31 [http-nio-0.0.0.0-8001-exec-5] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1079571430 wrapping org.mariadb.jdbc.Connection@5403d33b] will be managed by Spring
+2025-11-30 23:32:31 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:31 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16] from current transaction
+2025-11-30 23:32:31 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:36 [http-nio-0.0.0.0-8001-exec-6] INFO  c.n.s.list.service.KamcoService - === /cltr API 시작 ===
+2025-11-30 23:32:36 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:32:36 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:32:36 [http-nio-0.0.0.0-8001-exec-6] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@606881109 wrapping org.mariadb.jdbc.Connection@7a872cc3] will be managed by Spring
+2025-11-30 23:32:36 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:32:36 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1] from current transaction
+2025-11-30 23:32:36 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:32:53 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:32:53 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6461b395] was not registered for synchronization because synchronization is not active
+2025-11-30 23:32:53 [http-nio-0.0.0.0-8001-exec-10] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1789280617 wrapping org.mariadb.jdbc.Connection@6e99d8e5] will not be managed by Spring
+2025-11-30 23:32:53 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6461b395]
+2025-11-30 23:32:53 [http-nio-0.0.0.0-8001-exec-3] INFO  c.n.s.list.service.KamcoService - === /mnmt API 시작 ===
+2025-11-30 23:32:53 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:32:53 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:32:53 [http-nio-0.0.0.0-8001-exec-3] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1317862450 wrapping org.mariadb.jdbc.Connection@6e99d8e5] will be managed by Spring
+2025-11-30 23:32:53 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:32:53 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718] from current transaction
+2025-11-30 23:32:53 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16] from current transaction
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16] from current transaction
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16] from current transaction
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16] from current transaction
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16] from current transaction
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16] from current transaction
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16] from current transaction
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16] from current transaction
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16] from current transaction
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16] from current transaction
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] INFO  c.n.s.list.service.KamcoService - === /mnmt API 종료: 10 건 ===
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f609d16]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-4] INFO  c.n.s.list.service.KamcoService - === /mnmt API 시작 ===
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-4] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@238012096 wrapping org.mariadb.jdbc.Connection@5403d33b] will be managed by Spring
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc] from current transaction
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-7] INFO  c.n.s.list.service.KamcoService - === /mnmt API 시작 ===
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-7] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1452595954 wrapping org.mariadb.jdbc.Connection@50d209d3] will be managed by Spring
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743] from current transaction
+2025-11-30 23:32:54 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:32:55 [http-nio-0.0.0.0-8001-exec-8] INFO  c.n.s.list.service.KamcoService - === /mnmt API 시작 ===
+2025-11-30 23:32:55 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:32:55 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:32:55 [http-nio-0.0.0.0-8001-exec-8] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@686338744 wrapping org.mariadb.jdbc.Connection@8e6851f] will be managed by Spring
+2025-11-30 23:32:55 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:32:55 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0] from current transaction
+2025-11-30 23:32:55 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:32:57 [http-nio-0.0.0.0-8001-exec-9] INFO  c.n.s.list.service.KamcoService - === /cltr API 시작 ===
+2025-11-30 23:32:57 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:32:57 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:32:57 [http-nio-0.0.0.0-8001-exec-9] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1912046348 wrapping org.mariadb.jdbc.Connection@1adca46] will be managed by Spring
+2025-11-30 23:32:57 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:32:57 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908] from current transaction
+2025-11-30 23:32:57 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1] from current transaction
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1] from current transaction
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1] from current transaction
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1] from current transaction
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1] from current transaction
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1] from current transaction
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1] from current transaction
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1] from current transaction
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1] from current transaction
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1] from current transaction
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] INFO  c.n.s.list.service.KamcoService - === /cltr API 종료: 10 건 ===
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f354f1]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-10] INFO  c.n.s.list.service.KamcoService - === /mnmt API 시작 ===
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-10] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@973384148 wrapping org.mariadb.jdbc.Connection@7a872cc3] will be managed by Spring
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af] from current transaction
+2025-11-30 23:33:07 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718] from current transaction
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718] from current transaction
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718] from current transaction
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718] from current transaction
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718] from current transaction
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718] from current transaction
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718] from current transaction
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718] from current transaction
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718] from current transaction
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718] from current transaction
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] INFO  c.n.s.list.service.KamcoService - === /mnmt API 종료: 10 건 ===
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a891718]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-2] INFO  c.n.s.list.service.KamcoService - === /cltr API 시작 ===
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-2] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@115711873 wrapping org.mariadb.jdbc.Connection@6e99d8e5] will be managed by Spring
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd] from current transaction
+2025-11-30 23:33:27 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] INFO  c.n.s.list.service.KamcoService - === /mnmt API 종료: 10 건 ===
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b4a1cc]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] INFO  c.n.s.list.service.KamcoService - === /mnmt API 종료: 10 건 ===
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27397743]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-5] INFO  c.n.s.list.service.KamcoService - === /mnmt API 시작 ===
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-6] INFO  c.n.s.list.service.KamcoService - === /mnmt API 시작 ===
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5aa3c844]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-5] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1374885892 wrapping org.mariadb.jdbc.Connection@5403d33b] will be managed by Spring
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-6] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1871149744 wrapping org.mariadb.jdbc.Connection@50d209d3] will be managed by Spring
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5aa3c844]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5aa3c844] from current transaction
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-6] WARN  o.m.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'kamco_by_mnmt_no' already exists
+2025-11-30 23:33:28 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5aa3c844]
+2025-11-30 23:33:29 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5aa3c844]
+2025-11-30 23:33:29 [http-nio-0.0.0.0-8001-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5aa3c844]
+2025-11-30 23:33:29 [http-nio-0.0.0.0-8001-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: (conn=613) Table 'kamco_by_mnmt_no' already exists
+### The error may exist in com/nyg/sideproj/list/mapper/KamcoMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: CREATE TABLE kamco_by_mnmt_no (id BIGINT AUTO_INCREMENT PRIMARY KEY, CLTR_MNMT_NO VARCHAR(50), PBCT_NO BIGINT, MIN_BID_PRC BIGINT, APSL_ASES_AVG_AMT BIGINT, PBCT_BEGN_DTM VARCHAR(14)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+### Cause: java.sql.SQLSyntaxErrorException: (conn=613) Table 'kamco_by_mnmt_no' already exists
+; bad SQL grammar []] with root cause
+java.sql.SQLSyntaxErrorException: (conn=613) Table 'kamco_by_mnmt_no' already exists
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:292)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:386)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1376)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1315)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1234)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1158)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:91)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:270)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	at jdk.proxy2/jdk.proxy2.$Proxy86.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:234)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy4/jdk.proxy4.$Proxy90.createMnmtTable(Unknown Source)
+	at com.nyg.sideproj.list.service.KamcoService.recreateTable(KamcoService.java:72)
+	at com.nyg.sideproj.list.service.KamcoService.getMnmtList(KamcoService.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.nyg.sideproj.list.service.KamcoService$$SpringCGLIB$$0.getMnmtList(<generated>)
+	at com.nyg.sideproj.list.controller.KamcoRestController.getMnmtList(KamcoRestController.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.nyg.sideproj.list.controller.KamcoRestController$$SpringCGLIB$$0.getMnmtList(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-11-30 23:33:29 [http-nio-0.0.0.0-8001-exec-3] INFO  c.n.s.list.service.KamcoService - === /mnmt API 시작 ===
+2025-11-30 23:33:29 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:33:29 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:29 [http-nio-0.0.0.0-8001-exec-3] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@220820502 wrapping org.mariadb.jdbc.Connection@50d209d3] will be managed by Spring
+2025-11-30 23:33:29 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:29 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a] from current transaction
+2025-11-30 23:33:29 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] INFO  c.n.s.list.service.KamcoService - === /mnmt API 종료: 10 건 ===
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42912fb0]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908] from current transaction
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] INFO  c.n.s.list.service.KamcoService - === /cltr API 종료: 10 건 ===
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:33:32 [http-nio-0.0.0.0-8001-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9365908]
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af] from current transaction
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af] from current transaction
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af] from current transaction
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af] from current transaction
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af] from current transaction
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af] from current transaction
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af] from current transaction
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af] from current transaction
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af] from current transaction
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af] from current transaction
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] INFO  c.n.s.list.service.KamcoService - === /mnmt API 종료: 10 건 ===
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:38 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420fb8af]
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd] from current transaction
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd] from current transaction
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd] from current transaction
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd] from current transaction
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd] from current transaction
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd] from current transaction
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd] from current transaction
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd] from current transaction
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd] from current transaction
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd] from current transaction
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] INFO  c.n.s.list.service.KamcoService - === /cltr API 종료: 10 건 ===
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:56 [http-nio-0.0.0.0-8001-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db871fd]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] INFO  c.n.s.list.service.KamcoService - === /mnmt API 종료: 10 건 ===
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d73d67d]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a] from current transaction
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] INFO  c.n.s.list.service.KamcoService - === /mnmt API 종료: 10 건 ===
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
