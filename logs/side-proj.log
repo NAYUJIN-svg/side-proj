@@ -1706,3 +1706,11 @@ java.sql.SQLSyntaxErrorException: (conn=613) Table 'kamco_by_mnmt_no' already ex
 2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
 2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
 2025-11-30 23:33:58 [http-nio-0.0.0.0-8001-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcb126a]
+2025-11-30 23:35:13 [http-nio-0.0.0.0-8001-exec-10] INFO  c.n.s.list.service.KamcoService - === /mnmt API 시작 ===
+2025-11-30 23:35:13 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-11-30 23:35:13 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42092f4d]
+2025-11-30 23:35:13 [http-nio-0.0.0.0-8001-exec-10] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1705271098 wrapping org.mariadb.jdbc.Connection@7a872cc3] will be managed by Spring
+2025-11-30 23:35:13 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42092f4d]
+2025-11-30 23:35:13 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42092f4d] from current transaction
+2025-11-30 23:35:13 [http-nio-0.0.0.0-8001-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42092f4d]
+2025-11-30 23:35:18 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
