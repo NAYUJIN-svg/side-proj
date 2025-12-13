@@ -9,6 +9,7 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 /**
  * KAMCO REST API 컨트롤러
@@ -18,11 +19,13 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 @RequestMapping("/api/kamco")
 @Validated
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173"})
 public class KamcoRestController {
 
     private final KamcoService service;
 
-    @GetMapping(value = "/mnmt", produces = "application/xml")
+    @CrossOrigin(origins = "*")
+    @GetMapping(value = "/mnmt", produces = {"application/json", "application/xml"})
     @Operation(summary = "물건관리번호 중복제거 10개")
     public KamcoResponse getMnmtList(
             @RequestParam(required = false, defaultValue = "1") int pageNo,
@@ -33,7 +36,8 @@ public class KamcoRestController {
         return service.getMnmtList(request.getPageNo(), request.getNumOfRows());
     }
 
-    @GetMapping(value = "/cltr", produces = "application/xml")
+    @CrossOrigin(origins = "*")
+    @GetMapping(value = "/cltr", produces = {"application/json", "application/xml"})
     @Operation(summary = "물건명 중복제거 10개")
     public KamcoResponse getCltrList(
             @RequestParam(required = false, defaultValue = "1") int pageNo,
@@ -42,5 +46,19 @@ public class KamcoRestController {
         request.setPageNo(pageNo);
         request.setNumOfRows(numOfRows);
         return service.getCltrList(request.getPageNo(), request.getNumOfRows());
+    }
+
+    @CrossOrigin(origins = "*")
+    @GetMapping(value = "/backup/mnmt", produces = "application/json")
+    @Operation(summary = "물건관리번호 백업 데이터 조회")
+    public KamcoResponse getBackupMnmtList() {
+        return service.getBackupMnmtList();
+    }
+
+    @CrossOrigin(origins = "*")
+    @GetMapping(value = "/backup/cltr", produces = "application/json")
+    @Operation(summary = "물건명 백업 데이터 조회")
+    public KamcoResponse getBackupCltrList() {
+        return service.getBackupCltrList();
     }
 }

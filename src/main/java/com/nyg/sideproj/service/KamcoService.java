@@ -196,5 +196,20 @@ public class KamcoService {
         return mapper.findAllCltr();
     }
 
+    /**
+     * 물건관리번호 백업 데이터 조회 (DB에서 직접 조회)
+     */
+    public KamcoResponse getBackupMnmtList() {
+        List<KamcoItem> items = mapper.findAllMnmt();
+        return buildResponse(items, true);
+    }
+
+    /**
+     * 물건명 백업 데이터 조회 (DB에서 직접 조회)
+     */
+    public KamcoResponse getBackupCltrList() {
+        List<KamcoItem> items = mapper.findAllCltr();
+        return buildResponse(items, false);
+    }
 
 }
