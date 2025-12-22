@@ -1,0 +1,37 @@
+import { useState } from 'react'
+import KamcoMnmt from './components/KamcoMnmt'
+import KamcoCltr from './components/KamcoCltr'
+import './App.css'
+
+function App() {
+  const [activeTab, setActiveTab] = useState('mnmt')
+
+  return (
+    <div className="app">
+      <header>
+        <h1>KAMCO 공매 정보</h1>
+        <nav>
+          <button 
+            className={activeTab === 'mnmt' ? 'active' : ''}
+            onClick={() => setActiveTab('mnmt')}
+          >
+            물건관리번호
+          </button>
+          <button 
+            className={activeTab === 'cltr' ? 'active' : ''}
+            onClick={() => setActiveTab('cltr')}
+          >
+            물건명
+          </button>
+        </nav>
+      </header>
+      
+      <main>
+        {activeTab === 'mnmt' && <KamcoMnmt />}
+        {activeTab === 'cltr' && <KamcoCltr />}
+      </main>
+    </div>
+  )
+}
+
+export default App

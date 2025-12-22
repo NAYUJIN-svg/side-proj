@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Kamco Data Viewer</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #4CAF50; color: white; }
+        .controls { margin-bottom: 20px; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Kamco Data Viewer</h1>
+    
+    <div class="controls">
+        <button onclick="loadData('raw')">원본 데이터</button>
+        <button onclick="loadData('mnmt')">물건관리번호 기준</button>
+        <button onclick="loadData('cltr')">물건명 기준</button>
+    </div>
+
+    <div id="result">
+        <p>버튼을 클릭하여 데이터를 조회하세요.</p>
+    </div>
+
+    <script>
+        function loadData(type) {
+            const timestamp = new Date().toISOString();
+            const url = `/api/kamco/${type}`;
+            
+            console.log('='.repeat(80));
+            console.log(`[${timestamp}] 🚀 API 요청 시작`);
+            console.log(`[${timestamp}] URL: ${url}`);
+            console.log(`[${timestamp}] Method: GET`);
+            console.log(`[${timestamp}] Type: ${type}`);
+            
+            const startTime = performance.now();
+            
+            fetch(url)
+                .then(response => {
+                    const responseTime = performance.now();
+                    console.log(`[${new Date().toISOString()}] ✅ Response received`);
+                    console.log(`[${new Date().toISOString()}] Status: ${response.status} ${response.statusText}`);
+                    console.log(`[${new Date().toISOString()}] Response Time: ${(responseTime - startTime).toFixed(2)}ms`);
+                    console.log(`[${new Date().toISOString()}] Content-Type: ${response.headers.get('content-type')}`);
+                    return response.json();
+                })
+                .then(data => {
+                    const endTime = performance.now();
+                    console.log(`[${new Date().toISOString()}] 📦 Data parsed successfully`);
+                    console.log(`[${new Date().toISOString()}] Total Time: ${(endTime - startTime).toFixed(2)}ms`);
+                    console.log(`[${new Date().toISOString()}] Result Code: ${data.resultCode}`);
+                    console.log(`[${new Date().toISOString()}] Result Message: ${data.resultMsg}`);
+                    console.log(`[${new Date().toISOString()}] Items Count: ${data.items ? data.items.length : 0}`);
+                    console.log(`[${new Date().toISOString()}] Full Response:`, data);
+                    if (data.items && data.items.length > 0) {
+                        console.log(`[${new Date().toISOString()}] First Item:`, data.items[0]);
+                    }
+                    console.log('='.repeat(80));
+                    displayData(data);
+                })
+                .catch(error => {
+                    const errorTime = performance.now();
+                    console.error('='.repeat(80));
+                    console.error(`[${new Date().toISOString()}] ❌ ERROR occurred`);
+                    console.error(`[${new Date().toISOString()}] Time: ${(errorTime - startTime).toFixed(2)}ms`);
+                    console.error(`[${new Date().toISOString()}] Error Type: ${error.name}`);
+                    console.error(`[${new Date().toISOString()}] Error Message: ${error.message}`);
+                    console.error(`[${new Date().toISOString()}] Error Stack:`, error.stack);
+                    console.error('='.repeat(80));
+                    document.getElementById('result').innerHTML = `<p style="color: red;">오류: ${error.message}</p>`;
+                });
+        }
+
+        function displayData(data) {
+            const resultDiv = document.getElementById('result');
+            
+            if (!data.items || data.items.length === 0) {
+                resultDiv.innerHTML = '<p>조회된 데이터가 없습니다.</p>';
+                return;
+            }
+
+            let html = `<p>결과 코드: ${data.resultCode} | 메시지: ${data.resultMsg} | 총 ${data.items.length}건</p>`;
+            html += '<table><thead><tr>';
+            html += '<th>물건관리번호</th><th>물건명</th><th>처분방식코드</th><th>소재지</th><th>공고시작일</th><th>공고종료일</th>';
+            html += '</tr></thead><tbody>';
+
+            data.items.forEach(item => {
+                html += '<tr>';
+                html += `<td>${item.mnmtNo || ''}</td>`;
+                html += `<td>${item.cltrNm || ''}</td>`;
+                html += `<td>${item.dpslMtdCd || ''}</td>`;
+                html += `<td>${item.nmrdAdrs || ''}</td>`;
+                html += `<td>${item.pbctBegnDtm || ''}</td>`;
+                html += `<td>${item.pbctEndDtm || ''}</td>`;
+                html += '</tr>';
+            });
+
+            html += '</tbody></table>';
+            resultDiv.innerHTML = html;
+        }
+    </script>
+</body>
+</html>
