@@ -10,6 +10,9 @@
         th { background-color: #4CAF50; color: white; }
         .controls { margin-bottom: 20px; }
         button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+        .message { border-radius: 4px; }
+        .message.success { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .message.error { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
     </style>
 </head>
 <body>
@@ -19,6 +22,14 @@
         <button onclick="loadData('raw')">원본 데이터</button>
         <button onclick="loadData('mnmt')">물건관리번호 기준</button>
         <button onclick="loadData('cltr')">물건명 기준</button>
+        <button onclick="loadHistoryData()">이력 데이터</button>
+        <form method="post" action="/sample-data" style="display: inline;">
+            <button type="submit">샘플 데이터 생성</button>
+        </form>
+    </div>
+    
+    <div th:if="${message}" th:class="'message ' + ${messageType}" style="padding: 10px; margin: 10px 0; border-radius: 4px;">
+        <span th:text="${message}"></span>
     </div>
 
     <div id="result">
@@ -72,6 +83,65 @@
                     console.error('='.repeat(80));
                     document.getElementById('result').innerHTML = `<p style="color: red;">오류: ${error.message}</p>`;
                 });
+        }
+
+        function loadHistoryData() {
+            const timestamp = new Date().toISOString();
+            const url = '/api/kamco/history';
+            
+            console.log('='.repeat(80));
+            console.log(`[${timestamp}] 🚀 이력 데이터 요청 시작`);
+            console.log(`[${timestamp}] URL: ${url}`);
+            
+            const startTime = performance.now();
+            
+            fetch(url)
+                .then(response => {
+                    const responseTime = performance.now();
+                    console.log(`[${new Date().toISOString()}] ✅ Response received`);
+                    console.log(`[${new Date().toISOString()}] Status: ${response.status}`);
+                    console.log(`[${new Date().toISOString()}] Response Time: ${(responseTime - startTime).toFixed(2)}ms`);
+                    return response.json();
+                })
+                .then(data => {
+                    console.log(`[${new Date().toISOString()}] 📦 이력 데이터:`, data);
+                    displayHistoryData(data);
+                })
+                .catch(error => {
+                    console.error(`[${new Date().toISOString()}] ❌ 이력 데이터 오류:`, error);
+                    document.getElementById('result').innerHTML = `<p style="color: red;">오류: ${error.message}</p>`;
+                });
+        }
+
+        function displayHistoryData(data) {
+            const resultDiv = document.getElementById('result');
+            
+            if (!data.items || data.items.length === 0) {
+                resultDiv.innerHTML = '<p>조회된 이력 데이터가 없습니다. 샘플 데이터를 생성해보세요.</p>';
+                return;
+            }
+
+            let html = `<p>이력 데이터 | 총 ${data.totalCount}건 (페이지: ${data.pageNo})</p>`;
+            html += '<table><thead><tr>';
+            html += '<th>공고번호</th><th>물건관리번호</th><th>상태</th><th>최저입찰가</th><th>수수료율</th><th>공고시작</th><th>공고종료</th><th>응찰횟수</th><th>조회수</th>';
+            html += '</tr></thead><tbody>';
+
+            data.items.forEach(item => {
+                html += '<tr>';
+                html += `<td>${item.PBCT_NO || ''}</td>`;
+                html += `<td>${item.CLTR_MNMT_NO || ''}</td>`;
+                html += `<td>${item.PBCT_CLTR_STAT_NM || ''}</td>`;
+                html += `<td>${item.MIN_BID_PRC ? item.MIN_BID_PRC.toLocaleString() : ''}</td>`;
+                html += `<td>${item.FEE_RATE || ''}</td>`;
+                html += `<td>${item.PBCT_BEGN_DTM || ''}</td>`;
+                html += `<td>${item.PBCT_CLS_DTM || ''}</td>`;
+                html += `<td>${item.USCBD_CNT || 0}</td>`;
+                html += `<td>${item.IQRY_CNT || 0}</td>`;
+                html += '</tr>';
+            });
+
+            html += '</tbody></table>';
+            resultDiv.innerHTML = html;
         }
 
         function displayData(data) {

@@ -8,7 +8,7 @@ import java.io.ByteArrayInputStream;
 import java.util.*;
 
 /**
- * XML 파싱 유틸리티 (순수 파싱만 담당)
+ * XML 파싱 유틸리티
  */
 @Slf4j
 public class XmlParser {
@@ -27,14 +27,14 @@ public class XmlParser {
             for (int i = 0; i < nodeList.getLength(); i++) {
                 Element el = (Element) nodeList.item(i);
                 KamcoItem item = new KamcoItem();
-                item.setCLTR_MNMT_NO(getTag("CLTR_MNMT_NO", el));
-                item.setPBCT_NO(toLong(getTag("PBCT_NO", el)));
-                item.setCLTR_NM(getTag("CLTR_NM", el));
-                item.setMIN_BID_PRC(toLong(getTag("MIN_BID_PRC", el)));
-                item.setPBCT_BEGN_DTM(getTag("PBCT_BEGN_DTM", el));
-                item.setPBCT_CLS_DTM(getTag("PBCT_CLS_DTM", el));
-                item.setAPSL_ASES_AVG_AMT(toLong(getTag("APSL_ASES_AVG_AMT", el)));
-                item.setUSCBD_CNT(toInt(getTag("USCBD_CNT", el)));
+                item.setCltrMnmtNo(getTag("CLTR_MNMT_NO", el));
+                item.setPbctNo(toLong(getTag("PBCT_NO", el)));
+                item.setCltrNm(getTag("CLTR_NM", el));
+                item.setMinBidPrc(toLong(getTag("MIN_BID_PRC", el)));
+                item.setPbctBegnDtm(getTag("PBCT_BEGN_DTM", el));
+                item.setPbctClsDtm(getTag("PBCT_CLS_DTM", el));
+                item.setApslAsesAvgAmt(toLong(getTag("APSL_ASES_AVG_AMT", el)));
+                item.setUscbdCnt(toInt(getTag("USCBD_CNT", el)));
                 items.add(item);
             }
         } catch (Exception e) {

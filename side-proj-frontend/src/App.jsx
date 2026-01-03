@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import KamcoMnmt from './components/KamcoMnmt'
+import KamcoHistory from './components/KamcoHistory'
 import KamcoCltr from './components/KamcoCltr'
 import './App.css'
 
 function App() {
-  const [activeTab, setActiveTab] = useState('mnmt')
+  const [activeTab, setActiveTab] = useState('history')
 
   return (
     <div className="app">
@@ -12,10 +12,10 @@ function App() {
         <h1>KAMCO 공매 정보</h1>
         <nav>
           <button 
-            className={activeTab === 'mnmt' ? 'active' : ''}
-            onClick={() => setActiveTab('mnmt')}
+            className={activeTab === 'history' ? 'active' : ''}
+            onClick={() => setActiveTab('history')}
           >
-            물건관리번호
+            이력조회
           </button>
           <button 
             className={activeTab === 'cltr' ? 'active' : ''}
@@ -27,7 +27,7 @@ function App() {
       </header>
       
       <main>
-        {activeTab === 'mnmt' && <KamcoMnmt />}
+        {activeTab === 'history' && <KamcoHistory />}
         {activeTab === 'cltr' && <KamcoCltr />}
       </main>
     </div>

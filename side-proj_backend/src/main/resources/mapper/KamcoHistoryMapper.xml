@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nyg.sideproj.mapper.KamcoHistoryMapper">
+
+    <!-- ===============================
+         ResultMap
+    =============================== -->
+    <resultMap id="KamcoHistoryResultMap"
+               type="com.nyg.sideproj.entity.KamcoHistoryItem">
+        <id property="id" column="id"/>
+        <result property="pbctNo" column="pbct_no"/>
+        <result property="cltrMnmtNo" column="cltr_mnmt_no"/>
+        <result property="pbctCltrStatNm" column="pbct_cltr_stat_nm"/>
+        <result property="minBidPrc" column="min_bid_prc"/>
+        <result property="feeRate" column="fee_rate"/>
+        <result property="createdAt" column="created_at"/>
+    </resultMap>
+
+    <!-- ===============================
+         INSERT
+    =============================== -->
+    <insert id="insert"
+            parameterType="com.nyg.sideproj.entity.KamcoHistoryItem"
+            useGeneratedKeys="true"
+            keyProperty="id">
+        INSERT INTO kamco_history (
+            pbct_no,
+            cltr_mnmt_no,
+            pbct_cltr_stat_nm,
+            min_bid_prc,
+            fee_rate,
+            created_at
+        ) VALUES (
+                     #{pbctNo},
+                     #{cltrMnmtNo},
+                     #{pbctCltrStatNm},
+                     #{minBidPrc},
+                     #{feeRate},
+                     #{createdAt}
+                 )
+    </insert>
+
+    <!-- ===============================
+         단건 조회 (중복 체크)
+    =============================== -->
+    <select id="findByPbctNo"
+            parameterType="string"
+            resultMap="KamcoHistoryResultMap">
+        SELECT *
+        FROM kamco_history
+        WHERE pbct_no = #{pbctNo}
+            LIMIT 1
+    </select>
+
+    <!-- ===============================
+         페이징 조회
+    =============================== -->
+    <select id="findAll"
+            resultMap="KamcoHistoryResultMap">
+        SELECT *
+        FROM kamco_history
+        ORDER BY id DESC
+            LIMIT #{limit} OFFSET #{offset}
+    </select>
+
+    <!-- ===============================
+         전체 개수
+    =============================== -->
+    <select id="countAll"
+            resultType="int">
+        SELECT COUNT(*)
+        FROM kamco_history
+    </select>
+
+    <!-- ===============================
+         전체 삭제 (테스트용)
+    =============================== -->
+    <delete id="deleteAll">
+        DELETE FROM kamco_history
+    </delete>
+
+    <!-- ===============================
+         테이블 존재 확인 (테스트용)
+    =============================== -->
+    <select id="checkTableExists"
+            resultType="int">
+        SELECT COUNT(*)
+        FROM information_schema.tables
+        WHERE table_schema = DATABASE()
+          AND table_name = 'kamco_history'
+    </select>
+
+</mapper>

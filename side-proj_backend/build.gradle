@@ -33,7 +33,6 @@ dependencies {
     implementation 'org.glassfish.jaxb:jaxb-runtime:4.0.5'
     
     // Database
-    runtimeOnly 'mysql:mysql-connector-j:8.3.0'
     runtimeOnly 'org.mariadb.jdbc:mariadb-java-client:3.5.6'
     runtimeOnly 'com.h2database:h2'
     

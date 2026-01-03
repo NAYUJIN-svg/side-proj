@@ -21,6 +21,8 @@ public class KamcoResponse {
     private List<Item> items;
     
     @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
     @XmlRootElement(name = "item")
     @XmlAccessorType(XmlAccessType.FIELD)
     public static class Item {
@@ -47,19 +49,5 @@ public class KamcoResponse {
         
         @XmlElement(name = "USCBD_CNT")
         private Integer USCBD_CNT;
-
-        public Item(String cltrMnmtNo, Long pbctNo, String cltrNm, Long minBidPrc, String pbctBegnDtm, String pbctClsDtm, Long apslAsesAvgAmt, Integer uscbdCnt) {
-        }
-
-        public Item() {
-            String CLTR_MNMT_NO;
-            Long PBCT_NO;
-            String CLTR_NM;
-            Long MIN_BID_PRC;
-            String PBCT_BEGN_DTM;
-            String PBCT_CLS_DTM;
-            Long APSL_ASES_AVG_AMT;
-            Integer USCBD_CNT;
-        }
     }
 }

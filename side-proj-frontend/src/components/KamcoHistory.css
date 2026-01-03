@@ -1,0 +1,107 @@
+/* 전체 컨테이너 */
+.kamco-history {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* 컨트롤 영역 */
+.control-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.control-buttons button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* 검색 */
+form {
+  margin-bottom: 16px;
+}
+
+input {
+  padding: 6px;
+  margin-right: 6px;
+}
+
+/* 테이블 컨테이너 */
+.history-table-container {
+  display: block !important;      /* 🔥 강제 표시 */
+  position: static !important;    /* 🔥 가림 방지 */
+  height: auto !important;
+  overflow: visible !important;
+  margin-top: 20px;
+}
+
+/* 테이블 */
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.history-table th,
+.history-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* 헤더 */
+.history-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* 상태 색상 */
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.status.ing {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.status.end {
+  background-color: #eeeeee;
+  color: #424242;
+}
+
+/* 페이지네이션 */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+/* 데이터 없음 */
+.no-data-message {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fafafa;
+  border: 1px dashed #ccc;
+}
+
+/* 에러 */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}

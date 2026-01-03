@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nyg.sideproj.mapper.KamcoMapper">
+
+    <select id="findAllCltr" resultType="KamcoItem">
+        SELECT * FROM kamco_by_cltr_nm ORDER BY pbct_no DESC LIMIT 100
+    </select>
+
+    <insert id="insertByCltrNm" parameterType="KamcoItem">
+        INSERT INTO kamco_by_cltr_nm (
+            pbct_no, cltr_nm, min_bid_prc, pbct_cls_dtm, uscbd_cnt
+        ) VALUES (
+            #{pbctNo}, #{cltrNm}, #{minBidPrc}, #{pbctClsDtm}, #{uscbdCnt}
+        )
+    </insert>
+
+    <update id="dropCltrTable">
+        DROP TABLE IF EXISTS kamco_by_cltr_nm
+    </update>
+
+    <update id="createCltrTable">
+        CREATE TABLE IF NOT EXISTS kamco_by_cltr_nm (
+            id BIGINT AUTO_INCREMENT PRIMARY KEY,
+            cltr_nm VARCHAR(500),
+            pbct_no BIGINT,
+            pbct_cls_dtm VARCHAR(20),
+            min_bid_prc BIGINT,
+            uscbd_cnt INT,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    </update>
+
+</mapper>
